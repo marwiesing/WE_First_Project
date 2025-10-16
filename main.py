@@ -1,4 +1,4 @@
-from _mssql_connect import MSSQLDatabaseConnection
+from utils._mssql_connect import MSSQLDatabaseConnection
 import os 
 
 db = MSSQLDatabaseConnection()
@@ -90,12 +90,12 @@ if __name__ == "__main__":
     df = read_sql(sql_code)
 
 
-    #example1(df)
+    example1(df)
     #example2(df)
     #example3(df)
     #basic_exploration(df)
     #filtering_data(df)
-    index_based_selection(df)
+    #index_based_selection(df)
 
 
     db.disconnect()

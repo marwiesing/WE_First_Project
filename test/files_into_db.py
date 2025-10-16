@@ -3,7 +3,7 @@ import os
 from pathlib import Path
 import datetime as dt
 import pandas as pd
-from _mssql_connect import MSSQLDatabaseConnection
+from utils._mssql_connect import MSSQLDatabaseConnection
 
 FILES_DIR = Path("Files")  
 
